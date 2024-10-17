@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   display: flex;
-  margin: 2rem auto;
+  margin: 2rem auto 12rem auto;
   width: 67.5%;
 `;
 
@@ -37,10 +37,10 @@ const HeroImageWrapper = styled.div`
   position: relative;
   width: 50%;
   > img {
-    width: 80%;
+    width: 70%;
     height: auto;
     position: absolute;
-    transform: translate(-50px, -100px);
+    transform: translate(-20px, -100px);
   }
 `;
 

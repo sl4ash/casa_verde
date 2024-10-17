@@ -34,9 +34,11 @@ const AssinarButton = styled.button`
     font-size: 15px;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    font-weight: 500;
 
     &:hover {
-        box-shadow: 10px 10px 30px 0px rgba(255, 203, 71, 1);
+        background-color: rgb(141, 206, 151);
+        box-shadow: 10px 10px 30px 0px rgba(141, 206, 151, 0.3);
     }
 `;
 

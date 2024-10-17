@@ -23,7 +23,7 @@ const Bullet = styled.div`
 
 const Wrapper = styled.div`
     display: flex;
-    margin: 4rem auto;
+    margin: 4rem auto 2rem;
     width: 50%;
     box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.06);
     background-color: white;

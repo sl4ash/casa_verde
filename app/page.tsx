@@ -1,7 +1,7 @@
 "use client";
 import Head from "next/head";
 import styled from "styled-components";
-import { Newsletter, Menu, HorizontalCard } from "./_components";
+import { Newsletter, Menu, HorizontalCard, Ofertas } from "./_components";
 import Vector from "@/public/Vector.svg";
 import Image from "next/image";
 
@@ -51,6 +51,7 @@ export default function Home() {
         <Menu />
         <Newsletter />
         <HorizontalCard />
+        <Ofertas />
       </Main>
     </>
   );

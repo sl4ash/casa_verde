@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import { CardItemWrapper, Bullet, Item } from './styled';
+import { CardItemWrapper, Bullet, Item } from '../styled';
 
 interface CardItemProps {
     text: string;

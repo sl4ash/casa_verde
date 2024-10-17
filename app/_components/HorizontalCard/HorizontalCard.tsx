@@ -1,5 +1,5 @@
 import React from 'react'
-import CardItem from './CardItem'
+import CardItem from './components/CardItem'
 import { Wrapper, TextWrapper, CardLeading, CardImage, CardDisplay, CardList} from './styled';
 
 function HorizontalCard() {

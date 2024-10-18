@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { MdMailOutline } from "react-icons/md";
 
-const InputWrapper = styled.form<{ isVisible: boolean }>`
+const InputWrapper = styled.form<{ $isVisible: boolean }>`
     height: 5rem;
     display: flex;
     width: 100%;

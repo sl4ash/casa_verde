@@ -29,9 +29,9 @@ function NewsletterInput() {
       setSentForm(true);
 
     }
-
+    
     return (
-        <InputWrapper onSubmit={(e) => handleEmailSubmit(e)} isVisible={!sentForm}>
+        <InputWrapper onSubmit={(e) => handleEmailSubmit(e)} $isVisible={!sentForm}>
           
             <IconeEmail style={sentForm? {width: 0, margin: 0, color: "transparent"} : {}}/>
             <Input 

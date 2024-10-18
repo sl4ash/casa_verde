@@ -9,6 +9,10 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
+
+  env: {
+    API_KEY: process.env.EMAIL_APY_KEY
+  }
 };
 
 export default nextConfig;
